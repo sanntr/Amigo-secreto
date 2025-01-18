@@ -20,15 +20,15 @@ El usuraio puede ingresar  tantos nombres como deseé siempre que cumpla con las
 
 Si no se cumplen estas condiciones encima del input saldra un mensaje diciendo ingrese un nombre valido.
 
-![imagen dato de entrada no valido](imgReadme\img-novalido.png)
+![imagen dato de entrada no valido](imgReadme/img-novalido.png)
 
 En el caso contrario debajo del input saldra la lista de nombres.
 
-![imagen valida](imgReadme\img-valido.png)
+![imagen valida](imgReadme/img-valido.png)
 
 Cuando esten todos los nombres se realizara el sorte al oprimir el boton "sortear amigo", se mostrara el nombre escogido alazar.
 
-![imagen sortear amigo](imgReadme\sortear-amigo.png)
+![imagen sortear amigo](imgReadme/sortear-amigo.png)
 ---
 
 ## Informacion adicional
