@@ -34,5 +34,6 @@ Cuando esten todos los nombres se realizara el sorte al oprimir el boton "sortea
 ## Informacion adicional
 
 No importa si se ingresa  un nombre con mayusculas el programa las cambiara a minusculas y cualquier espacio en blanco sera eliminado.
+
 Aunque el proyecto es funcional tiene mejoras que se pueden realiza: distinguir entre nombres y letras alazar y no aceptar simbolos 
 
