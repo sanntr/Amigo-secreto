@@ -1,6 +1,7 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let listaAmigos =[]; 
 let listaIndex=[];
+const listaNumeros=[0,1,2,4,5,6,7,8,9];
 
 function asignarTextoElemento(elemento, texto){
     let etiqueta= document.querySelector(elemento)
@@ -14,9 +15,18 @@ function agregarAmigo(){
 
     //validacion por consola
     console.log(listaAmigos.includes(datoEntrada));
-    
-    if  (datoEntrada=='' )    {    
-        asignarTextoElemento('#descripcion', "Ingrese un nombre");
+
+    //aseguutarses de que el string no sea numeros
+    for(i of datoEntrada){
+        // console.log(i)
+        if(i in listaNumeros ){
+            return asignarTextoElemento('#descripcion', "Ingrese un nombre valido"); 
+            
+        }
+    }
+
+    if  (datoEntrada=='' || datoEntrada.length<3)    {   
+        asignarTextoElemento('#descripcion', "Ingrese un nombre valido");
     }else{
         if  (listaAmigos.includes(datoEntrada)){
             asignarTextoElemento('#descripcion', "El nombre ingresado ya existe");
